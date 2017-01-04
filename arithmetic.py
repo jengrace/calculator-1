@@ -18,7 +18,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Return the quotient of two numbers as a float"""
-    my_div = num1/num2
+    my_div = float(num1)/float(num2)
     return my_div
 
 
