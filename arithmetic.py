@@ -18,20 +18,29 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Return the quotient of two numbers as a float"""
-    pass
+    my_div = num1/num2
+    return my_div
+
 
 def square(num):
     """Return the square of a number"""
-    pass
+    my_sqr = num*num
+    return my_sqr
+
 
 def cube(num):
     """Return the cube of a number"""
-    pass
+    my_cube = num*num*num
+    return my_cube
+
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    pass
+    my_exp = num ** exponent
+    return my_exp
+
 
 def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
-    pass
+    my_mod = num1 % num2
+    return my_mod
