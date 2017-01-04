@@ -3,13 +3,18 @@ def add(num1, num2):
     my_sum = num1 + num2
     return my_sum
 
+
 def subtract(num1, num2):
     """Return the difference of two numbers"""
-    pass
+    my_diff = num1 - num2
+    return my_diff
+
 
 def multiply(num1, num2):
     """Return the product of two numbers"""
-    pass
+    my_prod = num1 * num2
+    return my_prod
+
 
 def divide(num1, num2):
     """Return the quotient of two numbers as a float"""
